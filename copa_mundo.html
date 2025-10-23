@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copa do Mundo - História e Curiosidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(230, 230, 230);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(0, 102, 51);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .paragrafo1 {
+            color: rgb(0, 0, 200);
+        }
+
+        .paragrafo2 {
+            color: rgb(200, 0, 0);
+        }
+
+        .paragrafo3 {
+            color: rgb(0, 150, 0);
+        }
+
+        img {
+            display: block;
+            margin: 15px auto;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: rgb(0, 102, 51);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nome do Aluno: <strong>Kayky Gabriel Barbosa</strong></h1>
+        <h2>Copa do Mundo de Futebol</h2>
+    </header>
+
+    <section>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/FIFA_World_Cup_Trophy_2018.jpg" alt="Taça da Copa do Mundo">
+
+        <p class="paragrafo1">
+            A Copa do Mundo de Futebol foi criada em 1930, no Uruguai, e é o torneio mais importante do esporte. Organizada pela FIFA, reúne seleções de diversos países em um grande evento realizado a cada quatro anos. O Uruguai foi o primeiro campeão, vencendo a Argentina na final por 4 a 2.
+        </p>
+
+        <p class="paragrafo2">
+            Com o passar das décadas, a competição cresceu e se tornou um símbolo de união e rivalidade esportiva. Grandes jogadores, como Pelé, Maradona, Zidane e Ronaldo, marcaram gerações e ajudaram a transformar a Copa em um espetáculo global, assistido por bilhões de pessoas em todo o mundo.
+        </p>
+
+        <p class="paragrafo3">
+            Atualmente, a Copa do Mundo representa muito mais do que apenas futebol: é um evento cultural, social e econômico que mobiliza nações inteiras. As sedes são escolhidas com anos de antecedência e cada edição deixa um legado de infraestrutura, emoção e histórias inesquecíveis para os torcedores.
+        </p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/World_Cup_2022_Final_-_Argentina_vs_France_%285-3%29_%28cropped%29.jpg" alt="Final da Copa do Mundo 2022">
+    </section>
+
+    <footer>
+        <p>Cidade: <strong>Guaira-Sp</strong> | Data e Hora: <span id="dataHora"></span></p>
+    </footer>
+
+    <script>
+        // Script para mostrar data e hora automáticas
+        const agora = new Date();
+        const dataFormatada = agora.toLocaleDateString('pt-BR');
+        const horaFormatada = agora.toLo
